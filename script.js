@@ -1,5 +1,3 @@
-** start of script.js **
-
 const regexPattern = document.querySelector("#pattern");
 const stringToTest = document.querySelector("#test-string");
 const testButton = document.querySelector("#test-btn");
@@ -31,5 +29,3 @@ testButton.addEventListener("click", () => {
     testResult.innerHTML = "no match"
   }
 })
-
-** end of script.js **
